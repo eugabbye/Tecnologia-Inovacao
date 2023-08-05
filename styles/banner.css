@@ -27,16 +27,16 @@
 button {
     font-size: 15px;
     font-weight: 300;
-    background-color: #a0b7c9;
+    background-color: #3e95af;
     color: black;
     border-radius: 10px;
     padding: 10px 20px;
-    box-shadow: 0 0 5px #a0b7c9, 0 0 25px #a0b7c9;
+    box-shadow: 0 0 5px #3e95af, 0 0 25px #3e95af;
   }
 
 button:hover {
-    box-shadow: 0 0 5px #a0b7c9, 0 0 25px #a0b7c9,
-    0 0 50px #a0b7c9, 0 0 100px #a0b7c9, 0 0 200px #a0b7c9;
+    box-shadow: 0 0 5px #3e95af, 0 0 25px #3e95af,
+    0 0 50px #3e95af, 0 0 100px #3e95af, 0 0 200px #3e95af;
 
 }
 
