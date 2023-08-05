@@ -1,0 +1,72 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/tecnologia.css");
+@import url("styles/inovacoes.css");
+@import url("styles/me.css");
+@import url("styles/carrossel.css");
+@import url("styles/box.css");
+@import url("styles/ferramentas.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+@import url("styles/abordagem.css");
+@import url("styles/mediaquieres.css");
+
+:root {
+    --cor-de-fundo: #173343;
+    --branco: white;
+    --fonte-principal: "Poppins";
+}
+
+body {
+    background-image: url(img/fundo2.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.seta {
+    width: 30%;
+    height: 20%;
+    background-image: url("../img/seta.png");
+        display: inline-block;
+}
+
+.espaco1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.espaco1 img {
+    padding-top: 1em;
+    height: 24px;
+    width: 30px;
+}
+
+.espaco2 {
+    padding-top: 1em;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.espaco-tab {
+    padding: 1em;
+}
+
+a href {
+    text-decoration: none;
+}
+
+#link-topo {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    box-shadow: 4px 4px 12px #000000;
+}

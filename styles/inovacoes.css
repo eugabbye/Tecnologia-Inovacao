@@ -1,0 +1,29 @@
+.inovacoes {
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    background-image: url(../img/fundo1.gif);
+    background-position: center;
+    background-size: cover;
+    background-attachment: local ;
+    
+}
+
+.ino-titulo {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Abril Fatface";
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+
+.ino-titulo2 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Abril Fatface";
+    text-transform: uppercase;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+

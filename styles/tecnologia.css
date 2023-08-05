@@ -1,0 +1,57 @@
+.tecnologia {
+    color: black;
+    padding: 2em; 
+    background-color: rgb(226, 226, 226);
+    padding-bottom: 2em;
+    
+}
+
+.tec-titulo {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Abril Fatface";
+    text-transform: uppercase;
+    color: rgb(226, 177, 43);
+    padding-bottom: 1em;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    display: flex;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.descrição__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5em 0;
+}
+
+.descrição_texto {
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 3em;
+}

@@ -1,0 +1,270 @@
+.container_botao {
+    display: none;
+}
+
+.container_titulo {
+    display: none;
+}
+
+.opções {
+    display: none;
+}
+
+.organizar, .box, .box__content, .box__front, .box__back, .box-text, .organizar-titulo {
+    content-visibility: hidden;
+}
+
+@media screen and (min-width: 1728px) {
+    
+    .organizar, .box, .box__content, .box__front, .box__back, .box-text, .organizar-titulo {
+        content-visibility: visible;
+    }
+
+    .pad-abordagem {
+        content-visibility: hidden;
+    }
+
+    .cabecalho_menu-hamburguer,  .lista-menu, .container_botao:checked, .lista-menu_item, .lista-menu_titulo, .container_botao .lista-menu_link {
+       visibility: hidden;
+    }
+
+
+        .cabecalho_menu-hamburguer {
+            width: 0%;
+            height: 0%;
+        }
+    
+    .cabecalho {
+        font-size: 25px;
+        color: white
+    }
+    .opções {
+        display: flex;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .opções-item {
+        padding: 0 1em;
+    }
+
+    .banner_titulo {
+        font-size: 60px;
+    }
+
+    .banner_texto {
+        font-size: 30px;
+    }
+
+    .button {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        padding: 10px 25px;
+      }
+
+    .tec-titulo {
+        font-size: 50px;
+    }
+
+    .tecnologia {
+        font-size: 25px;
+    }
+
+    .arrastar {
+        font-size: 25px;
+    }
+
+    .inovacoes {
+        font-size: 25px;
+    }
+
+    .ino-titulo {
+        font-size: 50px;
+    }
+
+    .ino-titulo2 {
+        font-size: 50px;
+    }
+
+    .carrossel-titulo {
+        font-size: 40px;
+    }
+
+    .carrossel-sub {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .swiper-slide img {
+        width: 540px;
+        height: 540px;
+    }
+
+    .contato-titulo {
+        font-size: 40px;
+    }
+
+    .contato-texto {
+        font-size: 30px;
+    }
+
+    .contato {
+        padding-bottom: 4em;
+    }
+
+    .email {
+        font-size: 30px;
+    }
+
+    .rodapé {
+        padding: 1em;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .abordagem-titulo{
+        font-size: 50px;
+    }
+
+    .abordando-texto2 {
+        font-size: 25px;
+    }
+
+    .abordagem {
+        font-size: 25px;
+    }
+
+    .abordando-imagem img{
+        width: 70%;
+        height: 50%;
+       }
+}
+
+@media screen and (min-width: 1024px) {
+    
+    .cabecalho_menu-hamburguer,  .lista-menu, .container_botao:checked, .lista-menu_item, .lista-menu_titulo, .container_botao .lista-menu_link {
+        visibility: hidden;
+    }
+
+        .cabecalho_menu-hamburguer {
+            width: 0%;
+            height: 0%;
+        }
+    
+
+    .logo-cell {
+        background-image: url(../img/);
+    }
+
+    .cabecalho {
+        font-size: 25px;
+        color: white
+    }
+    .opções {
+        display: flex;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .opções-item {
+        padding: 0 1em;
+    }
+
+    .banner_titulo {
+        font-size: 60px;
+    }
+
+    .banner_texto {
+        font-size: 30px;
+    }
+
+    .button {
+        font-size: 30px;
+        font-weight: 700;
+        color: white;
+        padding: 10px 25px;
+      }
+
+    .tec-titulo {
+        font-size: 50px;
+    }
+
+    .tecnologia {
+        font-size: 25px;
+    }
+
+    .arrastar {
+        font-size: 25px;
+    }
+
+    .inovacoes {
+        font-size: 25px;
+    }
+
+    .ino-titulo {
+        font-size: 50px;
+    }
+
+    .ino-titulo2 {
+        font-size: 50px;
+    }
+
+    .carrossel-titulo {
+        font-size: 40px;
+    }
+
+    .carrossel-sub {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .swiper-slide img {
+        width: 540px;
+        height: 540px;
+    }
+
+    .contato-titulo {
+        font-size: 40px;
+    }
+
+    .contato-texto {
+        font-size: 30px;
+    }
+
+    .contato {
+        padding-bottom: 4em;
+    }
+
+    .email {
+        font-size: 30px;
+    }
+
+    .rodapé {
+        padding: 1em;
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .abordagem-titulo{
+        font-size: 50px;
+    }
+
+    .abordando-texto2 {
+        font-size: 25px;
+    }
+
+    .abordagem {
+        font-size: 25px;
+    }
+
+    .abordando-imagem img{
+        width: 100%;
+        height: 400px;
+       }
+
+}
